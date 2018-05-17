@@ -37,3 +37,4 @@ function binary_search($array,$value){
 $arr = array(0,1,2,3,4,5,6,7,8,9);
 
 var_dump(binary_search($arr,5));
+
