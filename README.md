@@ -2,6 +2,8 @@
 
 PHP算法与数据结构学习
 
+![](images/2136918-eec8bde19ecadcd2.png)
+
 - [数组算法](array_question.php)
 - [二分法查找](binary_search.php)
 - [冒泡排序](bubble_sort.php)
