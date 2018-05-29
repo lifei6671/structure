@@ -134,7 +134,14 @@ function continuousMaxProduct(array $array,$n){
     return $maxProduct;
 }
 
-
+function printArrayTree($array,$level = 1){
+       foreach ($array as $item){
+           echo str_pad(' ',$level) , $item['name'],PHP_EOL;
+           if(empty($item['children'])){
+               printArrayTree($item['children'],$level++);
+           }
+       }
+}
 
 
 
