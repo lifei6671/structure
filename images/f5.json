@@ -1,0 +1,24 @@
+{
+  "title": "Command_L + R to R",
+  "rules": [
+    {
+      "description": "Command_L + R to R",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "R",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "f5"
+          }
+        }
+      ]
+    }
+  ]
+}
